@@ -1,0 +1,9 @@
+net                            MACs=   1,031,744 params=    20,490
+  0                              MACs=     112,896 params=       160
+  1                              MACs=           0 params=         0
+  2                              MACs=           0 params=         0
+  3                              MACs=     903,168 params=     4,640
+  4                              MACs=           0 params=         0
+  5                              MACs=           0 params=         0
+  6                              MACs=           0 params=         0
+  7                              MACs=      15,680 params=    15,690

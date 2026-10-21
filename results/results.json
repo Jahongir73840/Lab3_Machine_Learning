@@ -1,0 +1,140 @@
+{
+  "env": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel, Windows 10, Python 3.11.9, torch 2.14.1+cpu, CPU threads=14",
+  "models": {
+    "MLP": {
+      "params": 235146,
+      "params_torchinfo": 235146,
+      "torchinfo_mult_adds": 235146,
+      "params_hand": 235146,
+      "flops_hand": 469504,
+      "thop_macs": 234752.0,
+      "thop_params": 235146.0,
+      "flops_flopcounter": 469504.0,
+      "latency_ms_b1": 0.08879999950295314,
+      "latency_ms_b128": 0.559599997359328,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.49243034938031977,
+          "val_acc": 0.8578,
+          "sec": 17.25007700920105
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.3529311503497037,
+          "val_acc": 0.8706,
+          "sec": 17.16163468360901
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.3152854897455736,
+          "val_acc": 0.8706,
+          "sec": 17.246029138565063
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.2884968970818953,
+          "val_acc": 0.8782,
+          "sec": 17.74926257133484
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.2688776483449069,
+          "val_acc": 0.8804,
+          "sec": 17.440213918685913
+        }
+      ],
+      "test_acc": 0.8757
+    },
+    "CNN": {
+      "params": 20490,
+      "params_torchinfo": 20490,
+      "torchinfo_mult_adds": 1050570,
+      "params_hand": 20490,
+      "flops_hand": 2063488,
+      "thop_macs": 1031744.0,
+      "thop_params": 20490.0,
+      "flops_flopcounter": 2063488.0,
+      "latency_ms_b1": 0.41450001299381256,
+      "latency_ms_b128": 7.33944999956293,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.5312303571831096,
+          "val_acc": 0.8662,
+          "sec": 18.28570532798767
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.34485517639246854,
+          "val_acc": 0.882,
+          "sec": 18.26662850379944
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.3062177603418177,
+          "val_acc": 0.8958,
+          "sec": 18.155016899108887
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.27998702880902726,
+          "val_acc": 0.894,
+          "sec": 17.845972537994385
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.26220163482969455,
+          "val_acc": 0.8996,
+          "sec": 29.504709243774414
+        }
+      ],
+      "test_acc": 0.8974
+    },
+    "Attention": {
+      "params": 71818,
+      "params_torchinfo": 71818,
+      "torchinfo_mult_adds": 37514,
+      "params_hand": 71818,
+      "flops_hand": 2329856,
+      "thop_macs": 591488.0,
+      "thop_params": 37514.0,
+      "flops_flopcounter": 2198784.0,
+      "latency_ms_b1": 0.8589500066591427,
+      "latency_ms_b128": 4.081200000655372,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.7957137765407563,
+          "val_acc": 0.8102,
+          "sec": 26.239983797073364
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.48024053967215796,
+          "val_acc": 0.8438,
+          "sec": 27.41188955307007
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.4184479116483168,
+          "val_acc": 0.8504,
+          "sec": 26.1168110370636
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.38147804755297576,
+          "val_acc": 0.8596,
+          "sec": 26.07698893547058
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.36083172274069353,
+          "val_acc": 0.8668,
+          "sec": 32.07481002807617
+        }
+      ],
+      "test_acc": 0.8593
+    }
+  }
+}

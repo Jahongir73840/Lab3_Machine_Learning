@@ -1,0 +1,24 @@
+embed                          MACs=      50,176 params=     3,200
+encoder                        MACs=     540,672 params=    33,664
+  layers                         MACs=     540,672 params=    33,664
+    0                              MACs=     270,336 params=    16,832
+      self_attn                      MACs=           0 params=         0
+        out_proj                       MACs=           0 params=         0
+      linear1                        MACs=     131,072 params=     8,320
+      dropout                        MACs=           0 params=         0
+      linear2                        MACs=     131,072 params=     8,256
+      norm1                          MACs=       4,096 params=       128
+      norm2                          MACs=       4,096 params=       128
+      dropout1                       MACs=           0 params=         0
+      dropout2                       MACs=           0 params=         0
+    1                              MACs=     270,336 params=    16,832
+      self_attn                      MACs=           0 params=         0
+        out_proj                       MACs=           0 params=         0
+      linear1                        MACs=     131,072 params=     8,320
+      dropout                        MACs=           0 params=         0
+      linear2                        MACs=     131,072 params=     8,256
+      norm1                          MACs=       4,096 params=       128
+      norm2                          MACs=       4,096 params=       128
+      dropout1                       MACs=           0 params=         0
+      dropout2                       MACs=           0 params=         0
+head                           MACs=         640 params=       650
